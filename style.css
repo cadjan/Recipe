@@ -81,6 +81,7 @@ h2{
     font-family: Bebas Neue;
     font-size: 30px;
     font-weight: bold;
+    padding: 10px;
 }
 
 h3{
@@ -297,6 +298,15 @@ a{
         visibility: hidden;
         height: 1px;
         width: 1px;
+    }
+    
+    footer{
+        display: flex;
+    }
+
+    .aside-item{
+        padding: 20px;
+        display: inline-block;
     }
 
 }
